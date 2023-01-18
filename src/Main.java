@@ -49,17 +49,11 @@ public class Main {
             box = (int) (box + box * percentMouth);
             mouthBox++;
             System.out.println("В месяце " + mouthBox + " накоплений " + box);
-        }////???del
+        ////???del
 
         //Task 5//
-        System.out.println("Задание 5");
-        box = 15_000;
-        totalBox = 12_000_000;
-        percentMouth = 7 / 100D;
-        mouthBox = 0;
-        for (; box < totalBox; ) {
-            box = (int) (box + box * percentMouth);
-            mouthBox++;
+
+
             if (mouthBox % 6 == 0)////???
                 System.out.println("В месяце " + mouthBox + " накоплений " + box);
         }
