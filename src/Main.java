@@ -11,6 +11,7 @@ public class Main {
             mouth++;
             System.out.println("Месяц " + mouth + ", сумма накоплений равна " + total + " рублей");
         }
+
         //Task 2 //
         System.out.println("Задание 2");
         int numUp = 10;
@@ -24,6 +25,7 @@ public class Main {
             System.out.print(numDown + " ");
         }
         System.out.println();
+
         //Task 3//
         System.out.println("Задание 3");
         int popular = 12_000_000;
@@ -36,6 +38,7 @@ public class Main {
             popular = popular + popular * defference / factor;
             System.out.println("Год " + year + " численность населения составляет " + popular);
         }
+
         //Task 4//
         System.out.println("Задание 4");
         int box = 15_000;
@@ -46,17 +49,11 @@ public class Main {
             box = (int) (box + box * percentMouth);
             mouthBox++;
             System.out.println("В месяце " + mouthBox + " накоплений " + box);
-        }////???del
+        ////???del
 
         //Task 5//
-        System.out.println("Задание 5");
-        box = 15_000;
-        totalBox = 12_000_000;
-        percentMouth = 7 / 100D;
-        mouthBox = 0;
-        for (; box < totalBox; ) {
-            box = (int) (box + box * percentMouth);
-            mouthBox++;
+
+
             if (mouthBox % 6 == 0)////???
                 System.out.println("В месяце " + mouthBox + " накоплений " + box);
         }
